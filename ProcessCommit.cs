@@ -76,7 +76,9 @@ namespace triggerAzDoCommit
 
             // create payload request - here simple string, better: create class and pass object as .PostJsonAsync(object)
             var postPayload = $"{{\"stagesToSkip\":[],\"resources\":{{\"repositories\":{{\"self\":{{\"refName\":\"{branchRefId}\"}}}}}},\"variables\":{{}}}}";
-            
+
+            // trigger pipeline for specific branch
+            // see https://docs.microsoft.com/en-us/rest/api/azure/devops/pipelines/runs/run%20pipeline?view=azure-devops-rest-6.1
             var pipelineTrigger = await _organizationUrl
                 .AppendPathSegment(project)
                 .AppendPathSegment($"_apis/pipelines/{pipelineId}/runs")
