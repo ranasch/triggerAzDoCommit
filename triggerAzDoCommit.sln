@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.218
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "triggerAzDoCommit", "triggerAzDoCommit.csproj", "{3329A0FC-9CFF-4D56-A7F9-8CAB37C95915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3329A0FC-9CFF-4D56-A7F9-8CAB37C95915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3329A0FC-9CFF-4D56-A7F9-8CAB37C95915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3329A0FC-9CFF-4D56-A7F9-8CAB37C95915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3329A0FC-9CFF-4D56-A7F9-8CAB37C95915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7CB22D8-1B87-4775-B49C-7FFF7D832B1F}
+	EndGlobalSection
+EndGlobal
